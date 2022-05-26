@@ -1,0 +1,91 @@
+.back{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(Images/background-image-home.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+/*For Information Responsive*/
+@media(max-width: 700px){
+	.text-box h1{
+		font-size: 20px
+	}
+}
+/*Add the names*/
+.forall{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+}
+h2{
+	font-size: 36px;
+	font-weight: 600;
+	border-bottom: 1px solid #333;
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+	font-weight: 600;
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.forall-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.forall-col img{
+	width: 100%;
+	height: 200px;
+	display: block;
+	text-align: center;
+}
+.forall-col a{
+	text-decoration: none;
+	text-align: center;
+}
+.link{
+	width: 100%;
+	background: #333;
+	border-radius: 15px;
+	color: #fff;
+	text-align: center;
+	border: none;
+	padding: 10px;
+	border: none;
+	font-size: 18px;
+}
+.link a{
+	color: #fff;
+	text-decoration: none;
+}
+.icon{
+	margin-left: 10px;
+}

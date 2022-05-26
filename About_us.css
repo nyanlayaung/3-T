@@ -1,0 +1,68 @@
+.back{
+	min-height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(Images/background-image-about_us.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+	margin-top: 50px;
+}
+/*For Information Responsive*/
+@media(max-width: 700px){
+	.text-box h1{
+		font-size: 20px
+	}
+}
+/*Add the names*/
+.forall{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.About-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.About-col img{
+	width: 100%;
+	display: block;
+}
+.About-col a{
+	text-decoration: none;
+}
+.gmail{
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 3px;
+	font-size: oblique;
+	text-transform: lowercase;
+	cursor: pointer;
+}
